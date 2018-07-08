@@ -1,0 +1,536 @@
+/* FONTS */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat rel="stylesheet");
+
+/* body */
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+
+
+
+
+
+/* Titles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "CordiaUPC";
+    font-weight: 300;
+    color: #333;
+}
+
+
+
+
+
+
+/* Paragraph and text */
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+
+/* Navbar */
+
+.navbar {
+    font-weight: 600;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+    -moz-opacity: 0.5;
+    background: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background: #636e72;
+}
+
+.navbar-inverse .navbar-brand {
+
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.navbar-inverse .navbar-brand i {
+
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* Titl */
+
+.grow {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* headerwrap */
+
+#headerwrap {
+
+
+    .transition transition: 3s;
+
+
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+
+    animation: bgcolor infinite 10s;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #FFFFFF;
+    }
+    10% {
+        background-color: #F2F3F4;
+    }
+    20% {
+        background-color: #EAEDED;
+    }
+    30% {
+        background-color: #E5E8E8;
+    }
+    40% {
+        background-color: #D6DBDF;
+    }
+    50% {
+        background-color: #D5D8DC;
+    }
+    60% {
+        background-color: #D6DBDF;
+    }
+    70% {
+        background-color: #E5E8E8;
+    }
+    80% {
+        background-color: #EAEDED;
+    }
+    90% {
+        background-color: #F2F3F4;
+    }
+    100% {
+        background-color: #FFFFFF;
+    }
+}
+
+#headerwrap h1 {
+    margin-top: 100px;
+    color: black;
+    font-size: 20vw;
+
+    font-weight: 100;
+    letter-spacing: -5px;
+}
+
+#headerwrap h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+#headerwrap h3 {
+    color: grey;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    pading-bottom: 1px;
+}
+
+
+
+
+/* Sale Grey */
+
+#dg {
+    background: #e0e0e0;
+    margin-top: -55px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#dg h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #5F5F5F;
+}
+
+
+
+
+/* Brands White */
+
+#lg {
+    background: #FFFAFA;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+#lg h4 {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #5F5F5F;
+}
+
+
+
+
+/* Reviews White */
+
+#lgs {
+    background: #FFFAFA;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+/* Brands Grey */
+
+.div1 {
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* Info White */
+
+#r {
+    background: #FFFAFA;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+#r h4 {
+    color: #5F5F5F;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 1px;
+}
+
+#r p {
+    color: #5F5F5F;
+}
+
+
+
+
+/* Footer Wrap */
+
+#f {
+    background: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: -70px;
+}
+
+#f i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#f i:hover {
+    color: white;
+}
+
+
+
+
+
+/* For Sale */
+
+.w {
+    padding-top: 1px;
+    padding-bottom: 100px;
+}
+
+.w h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.w p {
+    font-weight: 200;
+    color: #5F5F5F;
+}
+
+.w i {
+    color: #ff7878;
+    font-size: 30px;
+}
+
+
+
+
+/* About */
+
+.wb {
+    padding-top: 5px;
+    margin-bottom: 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.wb h4 {
+    color: #5F5F5F;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.wb p {
+    color: #5F5F5F;
+    font-weight: 200;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/* Pricing Tables*/
+
+.content table {
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    margin: 0 0 10px 0;
+    color: #5F5F5F;
+}
+
+.content table caption {
+    margin: 10px 0;
+}
+
+.content td {
+    color: #5F5F5F;
+}
+
+.content th {
+    border-top: 1px solid transparent;
+    padding: 5px 10px 5px 5px;
+}
+
+.content th {
+    text-align: left;
+}
+
+
+.content table,
+.content td,
+.content th {}
+
+.table_prices {
+    margin: 30px 0 10px 25px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 2px #c0b5b5;
+    -webkit-box-shadow: 2px 2px 2px #c0b5b5;
+    box-shadow: 2px 2px 2px #c0b5b5;
+    background: #2d2d2d;
+    background: -moz-linear-gradient(top, #fcfcfc, #e8e7e7);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #e8e7e7));
+    background: -webkit-linear-gradient(top, #fcfcfc, #e8e7e7);
+    background: -o-linear-gradient(top, #fcfcfc, #e8e7e7);
+    background: -ms-linear-gradient(top, #fcfcfc, #e8e7e7);
+    background: linear-gradient(top, #fcfcfc, #e8e7e7);
+    width: 800px;
+    color: #5F5F5F;
+}
+
+.table_prices th {
+    padding: 10px 15px;
+    background: #2d2d2d;
+    font-weight: bold;
+    font-size: 18px;
+    color: #bdbdbd;
+}
+
+.table_prices th:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+.table_prices th:nth-child(2) {
+    border-top-right-radius: 10px;
+    text-align: left;
+}
+
+.table_prices td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #b8b8b8;
+    vertical-align: middle;
+    background: #FFFAFA;
+    color: #5F5F5F;
+}
+
+.table_prices td p {
+    vertical-align: middle;
+    margin: 0.3em 0;
+    color: #5F5F5F;
+}
+
+.table_prices tr:last-child td {
+    border-bottom: none;
+    color: #5F5F5F;
+}
+
+.table_prices td:nth-child(1) {
+    width: 450px;
+    color: #5F5F5F;
+}
+
+.table_prices td:nth-child(2) {
+    width: 130px;
+    color: #5F5F5F;
+}
+
+.table_prices .description {
+    color: #8e8e8e;
+}
+
+.table_prices-1 th {
+    background: #2d2d2d;
+}
+
+
+/* Soon */
+
+.soon {
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/* Contacts */
+
+.modal-content {
+    border-radius: 0px;
+}
+
+.modal-header {
+    background: #bdbdbd;
+    color: white;
+}
+
+.modal-header h4 {
+    font-weight: 700;
+}
+
+.modal-body {
+    background: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+.modal-footer {
+    background: #f2f2f2;
+    margin-top: 0px;
+}
